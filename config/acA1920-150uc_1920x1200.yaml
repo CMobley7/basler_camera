@@ -1,0 +1,20 @@
+image_width: 1920
+image_height: 1200
+camera_name: /ur5_arm_camera
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [2496.46527, 0.0, 994.29835, 0.0, 2501.81954, 626.90048, 0.0, 0.0, 1.0]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.05445, -0.15885, -0.00084, 0.00115, 0.00000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [2496.46527, 0.0, 994.29835, 0.0, 0.0, 2501.81954, 626.90048, 0.0, 0.0, 0.0, 1.0, 0.0]
